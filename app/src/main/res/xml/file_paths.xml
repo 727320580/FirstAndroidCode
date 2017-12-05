@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--  指定URI 共享的 -->
+    <external-path
+        name="my_images"
+        path="" />
+</paths>

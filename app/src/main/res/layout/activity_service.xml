@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务"/>
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"/>
+
+    <Button
+        android:id="@+id/btn_unBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解除绑定"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="销毁服务"/>
+
+    <Button
+        android:id="@+id/btn_startIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动线程服务"/>
+</LinearLayout>
